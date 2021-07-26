@@ -1,4 +1,4 @@
-module.exports.mainController = {
+ module.exports.drinksController = {
     getDrink: async (req, res) => {
       try {
         const coffee = await Drink.find({}, "name price");
